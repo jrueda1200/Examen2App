@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7 App</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section id="panel-menu" class="panel panel-left panel-reveal">
+				<div class="list media-list">
+					<a href="/registro/" class="item-link item-content panel-close">
+						<div class="block perfil">
+							<div class="row">
+							<article class="col-20">
+								<span class="material-symbols-outlined">account_circle</span>
+							</article>
+
+							<article class="col-80">
+							<h6> Perfil </h6>
+							</article>
+
+
+							</div>
+
+						</div>
+					</a>
+				</div>
+				<div class="list media-list">
+                <ul>
+					<li>
+                    <a href="/home/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						<span class="material-symbols-outlined">home</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Inicio</div>
+                       
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/listado/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						<span class="material-symbols-outlined">styler</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Grande</div>
+                       
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/listado/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						  <span class="material-symbols-outlined">checkroom</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Pequeño</div>
+                        
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/listado/" class="item-link item-content panel-close">
+                      <div class="item-media"><span class="material-symbols-outlined">boy</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Niños</div>
+                      </div>
+                    </a>
+                  </li>
+                   
+                </ul>
+              </div>
+				
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="/usuario/" class="link"><span class="material-symbols-outlined">account_circle</span></a>
+					</div>
+				  	
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <h2 class="block-title-large block-title">Ropa del Dia!</h2>
+				  
+				  <section id="carousel" class="block">
+				  
+                  <div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                      <img src="img/Camisa1.jpg" alt="" class="img-fluid"/>					  
+					  </div>
+                      <div class="swiper-slide">
+					  <img src="img/Camisa2.jpg" alt="" class="img-fluid"/>
+					  </div>
+                      <div class="swiper-slide">
+					  <img src="img/Camisa3.jpg" alt="" class="img-fluid"/>
+					  </div>
+                   
+                  </div>
+              </div>
+				  
+				  </section>
+				  
+				  <h2 class="block-title">Categorias</h2>
+				  
+				  <section id="categorias" class="block">
+					  
+					  <div class="swiper-container swiper-init" data-space-between="50" data-slides-per-view="3">
+					  <div class="swiper-wrapper">
+					  
+					  
+					  
+					  <div class="swiper-slide">
+						  <a href="/listado/" class="link panel-close">
+					  <div class="btn-categorias">
+						  <div class="row">
+						  
+							  <article class="col-30">
+							  <span class="material-symbols-outlined">styler</span>
+							  
+							  </article>
+							  
+							  <article class="col-70 nombre-categoria">
+							  Grande
+							  </article>						  
+						  </div>						  					  
+					  </div>
+                    </a>
+                  </div>
+						<div class="swiper-slide">  
+							<a href="/listado/" class="link">
+                        <div class="btn-categorias">
+                                <div class="row">
+
+                                    <article class="col-30">
+                                    <span class="material-symbols-outlined">checkroom</span>
+
+                                    </article>
+
+                                    <article class="col-70 nombre-categoria">
+                                    Pequeño
+                                    </article>						  
+                                </div>						  					  
+                        </div>
+							</a>
+						  </div>
+						  <div class="swiper-slide">  
+							<a href="/listado/" class="link">
+                       <div class="btn-categorias">
+                                <div class="row">
+
+                                    <article class="col-30">
+                                    <span class="material-symbols-outlined">boy</span>
+
+                                    </article>
+
+                                    <article class="col-70 nombre-categoria">
+                                    Niños
+                                    </article>						  
+                                </div>						  					  
+                        </div>
+								</a>
+						  </div>
+						  
+						  </div>
+					  </div>
+				  </section>
+				  
+				  <br><h2 class="block-title">Para esta temporada</h2>
+				  
+				  <section class="card-products block">
+					  
+					  <div class="row">
+					  
+					  <article class="col">
+						  <div class="card">
+						<a href="listado.html">
+						  <img src="img/Camisa1.png" alt="" class="img-fluid item-shop">
+						</a>
+						  <h3>Camisa Overize</h3>
+						  <p>GRIS</p>
+						  <h4>$ 20.98</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="listado.html">
+                         <img src="img/Camisa4.png" alt="" class="img-fluid">
+						</a>
+
+						  <h3>Camisa Overize</h3>
+						  <p>AZUL</p>
+						  <h4>$ 19.99</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+					  
+					  
+				  		<br><div class="row">
+					  
+					  <article class="col">
+						  <div class="card">
+						<a href="listado.html">
+						  <img src="img/Camisa2.png" alt="" class="img-fluid">
+						</a>
+						  <h3>Camisa Overize</h3>
+						  <p>NEGRA</p>
+						  <h4>$ 20.00</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="listado.html">
+                         <img src="img/Camisa3.png" alt="" class="img-fluid">
+						</a>
+						  <h3>Camisa Overize</h3>
+						  <p>BLANCA</p>
+						  <h4>$ 22.99</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+					  <br><div class="row">
+						  
+				  </section>
+				  
+                              <section class="footer-section block">
+              <div class="row footer-items d-flex align-items-center text-center">
+                <article class="col">
+                  <span class="material-symbols-outlined">copyright</span>
+                </article>
+                <article class="col">
+                  <span class="material-symbols-outlined">person_apron</span>
+                </article>
+                <article class="col">
+                  <span class="material-symbols-outlined">nest_protect</span>
+                </article>
+              </div>
+            </section>
+				  
+			  </section>
+
+			</section>
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
